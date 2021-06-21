@@ -8,7 +8,7 @@ namespace Algorithms
 	 * Run Time: 0(n)
 	 * Space Complexity: 0(1)
 	**/
-	void Searching::linearSearch(int value, std::vector<int> vector) {
+	void SearchingUnsorted::linearSearch(int value, std::vector<int> vector) {
 		for (unsigned int i = 0; i < vector.size(); i++) {
 			if (vector[i] == value) {
 				std::cout << "\nThe number is at index [" << i <<"].\n";
@@ -23,7 +23,7 @@ namespace Algorithms
 	 * Run Time: 0(logn)
 	 * Space Complexity: 0(1)
 	**/
-	void Searching::binarySearch(int value, std::vector<int> vector) { //34
+	void SearchingSorted::binarySearch(int value, std::vector<int> vector) { //34
 		int start = 0; //
 		int end = vector.size(); //6
 
