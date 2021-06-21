@@ -1,0 +1,6 @@
+Test/
+Debug/
+.vs/
+
+AlgorithmLibrary.sln
+AlgorithmLibrary/AlgorithmLibrary.*
