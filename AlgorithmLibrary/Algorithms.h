@@ -13,5 +13,6 @@ namespace Algorithms
 	{
 	public:
 		static void binarySearch(int value, std::vector<int> vector);
+		static void jumpSearch(int value, std::vector<int> vector);
 	};
 }
